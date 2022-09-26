@@ -1,11 +1,11 @@
 {
   "name": "nextarter-chakra",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "author": "sozonome",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "mkdir -p out && next build",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint",
