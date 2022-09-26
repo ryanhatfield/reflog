@@ -1,0 +1,8 @@
+tasks:
+  - init: >
+      nvm use
+      yarn
+      yarn prepare
+    command: yarn dev
+ports:
+  - port: 8000
