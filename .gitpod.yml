@@ -1,7 +1,7 @@
 tasks:
   - init: >
-      nvm use
-      yarn
+      nvm use &&
+      yarn &&
       yarn prepare
     command: yarn dev
 ports:
