@@ -4,9 +4,9 @@ const defaultSEOConfig = {
   // titleTemplate: "%s | Reflog",
   defaultTitle: "reflog",
   description: "Blog about Stuff",
-  canonical: "https://blog.ryan.bio",
+  canonical: "https://reflog.ryan.bio",
   openGraph: {
-    url: "https://reflog.pages.dev",
+    url: "https://reflog.ryan.bio",
     title: "reflog",
     description: "Blog about Stuff",
     site_name: "reflog",
