@@ -4,9 +4,13 @@ const Footer = () => {
   return (
     <Flex as="footer" width="full" justifyContent="center">
       <Text fontSize="sm" color="gray.500">
-        {new Date().getFullYear()} -{" "}
-        <Link href="https://sznm.dev" isExternal rel="noopener noreferrer">
-          sznm.dev
+        github -{" "}
+        <Link
+          href="https://github.com/ryanhatfield"
+          isExternal
+          rel="noopener noreferrer"
+        >
+          @ryanhatfield
         </Link>
       </Text>
     </Flex>

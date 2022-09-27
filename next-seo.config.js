@@ -1,7 +1,7 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
   title: "Reflog of a Nervous Git",
-  titleTemplate: "%s | Reflog",
+  // titleTemplate: "%s | Reflog",
   defaultTitle: "reflog",
   description: "Blog about Stuff",
   canonical: "https://blog.ryan.bio",

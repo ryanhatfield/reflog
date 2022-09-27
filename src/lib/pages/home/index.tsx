@@ -1,8 +1,8 @@
 import { Flex } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 
-import CTASection from "lib/components/samples/CTASection";
-import SomeImage from "lib/components/samples/SomeImage";
+// import CTASection from "lib/components/samples/CTASection";
+// import SomeImage from "lib/components/samples/SomeImage";
 import SomeText from "lib/components/samples/SomeText";
 
 const Home = () => {
@@ -16,10 +16,10 @@ const Home = () => {
       mb={8}
       w="full"
     >
-      <NextSeo title="Home" />
+      <NextSeo />
       <SomeText />
-      <SomeImage />
-      <CTASection />
+      {/* <SomeImage /> */}
+      {/* <CTASection /> */}
     </Flex>
   );
 };
