@@ -1,8 +1,8 @@
 {
-  "name": "nextarter-chakra",
+  "name": "reflog",
   "version": "0.1.2",
   "private": true,
-  "author": "sozonome",
+  "author": "ryanhatfield",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +14,6 @@
     "format": "prettier --write src",
     "up": "yarn upgrade-interactive",
     "up-latest": "yarn up --latest",
-    "release": "cross-env HUSKY=0 standard-version",
     "push-release": "git push --follow-tags origin main",
     "prepare": "husky install",
     "export": "next build && next export"

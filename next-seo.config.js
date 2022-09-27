@@ -1,24 +1,18 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  title: "nextarter-chakra",
-  titleTemplate: "%s | nextarter-chakra",
-  defaultTitle: "nextarter-chakra",
-  description: "Next.js + chakra-ui + TypeScript template",
-  canonical: "https://nextarter-chakra.sznm.dev",
+  title: "Reflog of a Nervous Git",
+  titleTemplate: "%s | Reflog",
+  defaultTitle: "reflog",
+  description: "Blog about Stuff",
+  canonical: "https://blog.ryan.bio",
   openGraph: {
-    url: "https://nextarter-chakra.sznm.dev",
-    title: "nextarter-chakra",
-    description: "Next.js + chakra-ui + TypeScript template",
-    images: [
-      {
-        url: "https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250",
-        alt: "nextarter-chakra.sznm.dev og-image",
-      },
-    ],
-    site_name: "nextarter-chakra",
+    url: "https://reflog.pages.dev",
+    title: "reflog",
+    description: "Blog about Stuff",
+    site_name: "reflog",
   },
   twitter: {
-    handle: "@sozonome",
+    handle: "@nervousgit",
     cardType: "summary_large_image",
   },
 };
